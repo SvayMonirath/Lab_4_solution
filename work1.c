@@ -11,7 +11,7 @@
 
 int main(void) {
     // Declare variables
-    int n, i, result = 0;
+    int n, result = 0;
     
     // Ask the user for a number
     do {
@@ -23,7 +23,7 @@ int main(void) {
     
     // Print the sum of the first n odd numbers
     printf("The square of %d using the proposed method is:\n", n);
-    for (i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) {
         result += oddNumber;    // Add the current odd number to result
         printf("%d", oddNumber);  // Print the odd number
         if (i < n - 1) {

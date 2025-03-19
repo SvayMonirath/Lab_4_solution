@@ -16,8 +16,8 @@ int main(void) {
     // Print column headers (numbers 1 to n)
     for (int i = 1; i <= num; i++) {
         printf("\t%d", i);
-    }
-    printf("\n");
+    }  
+    printf("\n\n");
 
     // Print the multiplication table
     for (int i = 1; i <= num; i++) {
@@ -28,7 +28,7 @@ int main(void) {
         for (int j = 1; j <= num; j++) {
             printf("\t%d", i * j);  // Multiply row and column number
         }
-        printf("\n");
+        printf("\n\n");
     }
 
     return 0;
